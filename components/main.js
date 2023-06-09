@@ -458,7 +458,18 @@ export default function Main() {
                                     "bg-gradient-to-br from-red-300 to-purple-600",
                                     "bg-white",
                                     "bg-black",
-                                    "bg-gradient-to-br from-gray-700 via-gray-600 to-indigo-200",
+                                    "bg-gradient-to-br from-blue-800 via-pink-400 to-blue-800",
+                                    "bg-gradient-to-br from-red-500 via-orange-400 to-pink-800",
+                                    "bg-gradient-to-br from-red-400 via-red-800 to-red-600",
+                                    "bg-gradient-to-br from-orange-400 via-red-400 to-purple-900",
+                                    "bg-gradient-to-br from-green-600 via-blue-300 to-green-600",
+                                    "bg-gradient-to-br from-orange-600 via-yellow-400 to-orange-800",
+                                    "bg-gradient-to-br from-pink-700 via-red-900 to-black-600",
+                                    "bg-gradient-to-br from-red-800 via-red-400 to-red-800",
+                                    "bg-gradient-to-br from-slate-800 via-green-400 to-slate-800",
+                                    "bg-gradient-to-br from-gray-800 via-gray-200 to-gray-800",
+                                    "bg-gradient-to-br from-gray-200 via-gray-800 to-gray-200",
+                                    "bg-gradient-to-br from-pink-200 via-red-400 to-pink-200",
                                 ].map((theme) => (
                                     <div
                                         key={theme}
@@ -661,30 +672,30 @@ export default function Main() {
     const RenderMaker = () => (
         <div className="lg:absolute lg:bottom-[20px] flex flex-col items-center justify-center pb-5 text-sm lg:pb-0 lg:pt-20 dark:text-gray-400 lg:flex-row opacity-60">
             <a
-                href="https://twitter.com/thelifeofrishi"
+                href="https://twitter.com/leidichen"
                 target="_blank"
                 className="flex items-center hover:underline"
             >
                 <span className="w-5 h-5 mx-1">{TwitterIcon}</span>
-                Created by Rishi Mohan
+                lenband
             </a>
             <span className="hidden px-2 lg:block">-</span>
             <a
-                href="https://github.com/rishimohan/pika"
+                href="https://github.com/leidichen/pika"
                 target="_blank"
                 className="flex items-center mt-2 hover:underline lg:mt-0"
             >
                 <span className="w-5 h-5 mx-1">{GithubIcon}</span>
-                View Code on Github
+                Github
             </a>
             <span className="hidden px-2 lg:block">-</span>
             <a
-                href="https://www.buymeacoffee.com/thelifeofrishi"
+                href="https://lenband.com/"
                 target="_blank"
                 className="flex items-center mt-2 hover:underline lg:mt-0"
             >
                 <span className="w-5 h-5 mx-1">{CoffeeIcon}</span>
-                Buy me a coffee
+                Blog
             </a>
         </div>
     );
