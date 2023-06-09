@@ -378,7 +378,7 @@ export default function Main() {
                     <div className="relative flex flex-row flex-wrap items-start justify-start space-y-5 lg:items-start lg:flex-col lg:space-y-4">
                         <div className="flex items-center justify-between w-full">
                             <div className="text-sm font-semibold dark:text-white">
-                                纵横比
+                                Aspect Ratio
                             </div>
                             <div>
                                 <select
@@ -395,7 +395,7 @@ export default function Main() {
                         </div>
                         <div className="flex items-center justify-between w-full">
                             <div className="text-sm font-semibold dark:text-white">
-                                浏览器装饰
+                                Browser Wrapper
                             </div>
                             <div>
                                 <select
@@ -413,7 +413,7 @@ export default function Main() {
                         </div>
                         <div className="flex items-center justify-between w-full">
                             <div className="text-sm font-semibold dark:text-white">
-                                填充
+                                Padding
                             </div>
                             <div>
                                 <select
@@ -432,7 +432,7 @@ export default function Main() {
                         </div>
                         <div className="">
                             <div className="relative flex items-center pb-2 text-sm font-semibold dark:text-white">
-                                配色
+                                Background
                                 <div className="relative">
                                     <div
                                         onClick={() => setBGPicker(!bgPicker)}
@@ -657,36 +657,36 @@ export default function Main() {
         }
     };
 
-    //   const RenderMaker = () => (
-    //     <div className="lg:absolute lg:bottom-[20px] flex flex-col items-center justify-center pb-5 text-sm lg:pb-0 lg:pt-20 dark:text-gray-400 lg:flex-row opacity-60">
-    //       <a
-    //         href="https://twitter.com/thelifeofrishi"
-    //         target="_blank"
-    //         className="flex items-center hover:underline"
-    //       >
-    //         <span className="w-5 h-5 mx-1">{TwitterIcon}</span>
-    //         Created by Rishi Mohan
-    //       </a>
-    //       <span className="hidden px-2 lg:block">-</span>
-    //       <a
-    //         href="https://github.com/rishimohan/pika"
-    //         target="_blank"
-    //         className="flex items-center mt-2 hover:underline lg:mt-0"
-    //       >
-    //         <span className="w-5 h-5 mx-1">{GithubIcon}</span>
-    //         View Code on Github
-    //       </a>
-    //       <span className="hidden px-2 lg:block">-</span>
-    //       <a
-    //         href="https://www.buymeacoffee.com/thelifeofrishi"
-    //         target="_blank"
-    //         className="flex items-center mt-2 hover:underline lg:mt-0"
-    //       >
-    //         <span className="w-5 h-5 mx-1">{CoffeeIcon}</span>
-    //         Buy me a coffee
-    //       </a>
-    //     </div>
-    //   );
+    const RenderMaker = () => (
+        <div className="lg:absolute lg:bottom-[20px] flex flex-col items-center justify-center pb-5 text-sm lg:pb-0 lg:pt-20 dark:text-gray-400 lg:flex-row opacity-60">
+            <a
+                href="https://twitter.com/thelifeofrishi"
+                target="_blank"
+                className="flex items-center hover:underline"
+            >
+                <span className="w-5 h-5 mx-1">{TwitterIcon}</span>
+                Created by Rishi Mohan
+            </a>
+            <span className="hidden px-2 lg:block">-</span>
+            <a
+                href="https://github.com/rishimohan/pika"
+                target="_blank"
+                className="flex items-center mt-2 hover:underline lg:mt-0"
+            >
+                <span className="w-5 h-5 mx-1">{GithubIcon}</span>
+                View Code on Github
+            </a>
+            <span className="hidden px-2 lg:block">-</span>
+            <a
+                href="https://www.buymeacoffee.com/thelifeofrishi"
+                target="_blank"
+                className="flex items-center mt-2 hover:underline lg:mt-0"
+            >
+                <span className="w-5 h-5 mx-1">{CoffeeIcon}</span>
+                Buy me a coffee
+            </a>
+        </div>
+    );
 
     return (
         <div
