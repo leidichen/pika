@@ -458,6 +458,7 @@ export default function Main() {
                                     "bg-gradient-to-br from-red-300 to-purple-600",
                                     "bg-white",
                                     "bg-black",
+                                    "bg-gradient-to-br from-red-100 to-purple-400",
                                 ].map((theme) => (
                                     <div
                                         key={theme}
